@@ -1,0 +1,112 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif                          ;
+margin: 0;
+padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+background-color: orange;
+}
+
+#box-ppal {
+    padding: 10px;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.logo {
+    padding: 5px;
+    width: 80px;
+    height: 90px;
+}
+
+nav a {
+    padding: 10px;
+    margin: 10px;
+}
+
+.titular1 {
+    font-size: 48pt;
+}
+
+.gral {
+    text-decoration: none;
+    color: black;
+}
+
+.gral:hover {
+    color: white;
+}
+
+.internos {
+    color: orange;
+    margin-bottom: 10px;
+
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.foot-small {
+    font-size: 8pt;    
+}
+
+#envios{
+    padding-bottom: 10px;
+}
+
+#contacto {
+    height: 560px;
+    width: 480px;
+    background-color: orange;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    margin: 20px;
+}
+
+form {
+    max-width: 400px;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+  }
+
+label {
+    display: block;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.send {
+    border-radius: 5px;
+    padding: 2px;
+    background-color: white;
+}
+
+.send:hover {
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+    border-bottom: orange;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    height: 80px;
+}
