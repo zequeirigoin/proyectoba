@@ -8,12 +8,16 @@ header {
     display: flex;
     align-items: center;
 background-color: orange;
+margin: 0;
 }
 
 #box-ppal {
-    padding: 10px;
-    margin: 10px;
-    margin-left: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.box-inicial {
+    margin: 0;
 }
 
 .logo {
@@ -25,10 +29,31 @@ background-color: orange;
 nav a {
     padding: 10px;
     margin: 10px;
+    margin-bottom: 0;
+}
+
+.slider-cm {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.slider {
+    position: relative;
+    max-width: 100%;
 }
 
 .titular1 {
-    font-size: 48pt;
+    position: absolute;
+    text-align: right;
+    font-size: 80px;
+    right: 0;
+    margin-right: 20px;
+    z-index: 11;
+
 }
 
 .gral {
