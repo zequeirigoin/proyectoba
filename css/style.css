@@ -88,7 +88,7 @@ nav a {
     display: flex;
     justify-content: center;
 }
-#div-deriva {
+ .div-deriva {
     text-align: center;
     margin: 0 10px;
 }
@@ -99,12 +99,17 @@ nav a {
     text-decoration: none;
     color: #000000;
 }
-
 .derivaprod img {
     width: 180px;
     height: auto;
-}
+} 
 /* FIN DERIVA-PRODUCTOS */
+
+/* INICIO DESTACADOS */
+.destacados {
+    text-align: center;
+}
+/* FIN DESTACADOS */
 
 /* INICIO FORMULARIO DE CONTACTO */
 .contactme {
