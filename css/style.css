@@ -107,9 +107,9 @@ nav a {
 /* FIN DERIVA-PRODUCTOS */
 
 /* INICIO FORMULARIO DE CONTACTO */
-#contacto {
+.contactme {
     height: 490px;
-    width: 480px;
+    width: 500px;
     background-color: orange;
     border-radius: 10px;
     align-items: center;
