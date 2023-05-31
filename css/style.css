@@ -1,37 +1,12 @@
+/* INICIO GENERALES */
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif                          ;
 margin: 0;
 padding: 0;
 }
+/* FIN GENERALES */
 
-header {
-    display: flex;
-    align-items: center;
-background-color: orange;
-margin: 0;
-}
-
-#box-ppal {
-    padding: 0;
-    margin: 0;
-}
-
-.box-inicial {
-    margin: 0;
-}
-
-.logo {
-    padding: 5px;
-    width: 80px;
-    height: 90px;
-}
-
-nav a {
-    padding: 10px;
-    margin: 10px;
-    margin-bottom: 0;
-}
-
+/* INICIO DIV-INICIAL */
 .slider-cm {
     width: 100%;
     display: flex;
@@ -39,7 +14,6 @@ nav a {
     margin: 0;
     padding: 0;
 }
-
 
 .slider {
     position: relative;
@@ -61,6 +35,37 @@ nav a {
     z-index: 11;
 }
 
+.nuestra-tienda {
+    margin: 30px;
+    padding: 10px;
+}
+#ntienda {
+    text-decoration: none;
+    color: black;
+}
+/* FIN DIV-INICIAL */
+
+/* INICIO LINKS NAV */
+header {
+    display: flex;
+    align-items: center;
+background-color: orange;
+margin: 0;
+}
+
+
+.logo {
+    padding: 5px;
+    width: 80px;
+    height: 90px;
+}
+
+nav a {
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
 .gral {
     text-decoration: none;
     color: black;
@@ -69,27 +74,39 @@ nav a {
 .gral:hover {
     color: white;
 }
+/* FIN LINKS NAV */
 
-.internos {
-    color: orange;
-    margin-bottom: 10px;
-
+/* INICIO DERIVA-PRODUCTOS */
+.deriva-productos {
+    text-align: center;
+}
+.nuestras-sec {
+    font-size: 24px;
+    margin: 30px;
+}
+.derivadores {
+    display: flex;
+    justify-content: center;
+}
+#div-deriva {
+    text-align: center;
+    margin: 0 10px;
+}
+.derivaprod {
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    text-decoration: none;
+    color: #000000;
 }
 
-p {
-    padding-top: 10px;
-    padding-bottom: 10px;
+.derivaprod img {
+    width: 180px;
+    height: auto;
 }
+/* FIN DERIVA-PRODUCTOS */
 
-
-.foot-small {
-    font-size: 8pt;    
-}
-
-#envios{
-    padding-bottom: 10px;
-}
-
+/* INICIO FORMULARIO DE CONTACTO */
 #contacto {
     height: 490px;
     width: 480px;
@@ -132,7 +149,9 @@ textarea {
     padding: 2px;
     border-bottom: orange;
 }
+/* FIN FORMULARIO DE CONTACTO */
 
+/* INICIO FOOTER */
 footer {
     display: flex;
     align-items: center;
@@ -140,3 +159,8 @@ footer {
     background-color: orange;
     height: 80px;
 }
+
+.foot-small {
+    font-size: 8pt;    
+}
+/* FIN FOOTER */
